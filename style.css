@@ -1,0 +1,64 @@
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+table {
+  height: 250px;
+  width: 150px;
+  border: 2px solid orange;
+}
+
+tr {
+  background-color: black;
+}
+
+.numbers input {
+  border-radius: 50%;
+  background-color: #333;
+  color: white;
+  border: none;
+  padding: 15px;
+  margin: 10px;
+  font-size: 20px;
+  outline: none;
+  height: 53px;
+  width: 53px;
+}
+
+.numbers input:active {
+  border: 2px solid rgb(202, 237, 235);
+}
+
+#result {
+  background-color: black;
+  height: 80px;
+  border-radius: 5%;
+}
+
+#result input {
+  border-radius: 5px;
+  font-size: 20px;
+  padding: 15px 15px;
+  margin: 50px 20px 40px 20px;
+}
+
+#plusbutton input {
+  background-color: orange;
+}
+
+#minusbutton input {
+  background-color: orange;
+}
+
+#multbutton input {
+  background-color: orange;
+}
+
+#dividebutton input {
+  background-color: orange;
+}
+
+#cancelbutton input {
+  background-color: #777;
+}
